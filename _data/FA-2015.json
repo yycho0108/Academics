@@ -44,15 +44,15 @@
 		"projects" : [
 			{
 				"title":"Hopper",
-				"description":"Biomimetic Design",
-				"visual":"",
-				"extra":""
+				"description":"Biomimetic Design to create a 'hopper', inspired from click beetles.",
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='videos/desnat/hopper-1.mp4' type='video/mp4'></video>",
+				"extra":"<a href='videos/desnat/hopper-2.mp4'>Second Model</a>"
 			},
 			{
 				"title":"Shark",
-				"description":"Play experience for 8th graders",
-				"visual":"",
-				"extra":""
+				"description":"Biomimetic game for children, motivated from Thresher Sharks; remote-controlling RC Sharks to accurately hit a target.",
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='videos/desnat/shark-2.mp4' type='video/mp4'></video>",
+				"extra":"<a href='videos/desnat/shark-1.mp4'>Conceptual Video</a>"
 			}
 		],
 		"extra" : ""
