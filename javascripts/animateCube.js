@@ -85,19 +85,22 @@ function getLerp(){
     // 0.7 ~ 0.9 = O-C
 }
 function render(){
+	if(mesh){
+		mesh.position.set(0,0,0);
+		mesh.rotation.set(0,0,0);
 
-    mesh.position.set(0,0,0);
-    mesh.rotation.set(0,0,0);
+		var r=80;
+		var l = getLerp();
+		mesh.material.color.setHex(l[1]);
+		mesh.rotateX(l[0].x);
+		mesh.rotateY(l[0].y);
+		mesh.rotateZ(l[0].z);
+		mesh.translateX(-20);
+		mesh.translateY(-20);
+		mesh.translateZ(-20);
 
-    var r=80;
-    var l = getLerp();
-    mesh.material.color.setHex(l[1]);
-    mesh.rotateX(l[0].x);
-    mesh.rotateY(l[0].y);
-    mesh.rotateZ(l[0].z);
-    mesh.translateX(-20);
-    mesh.translateY(-20);
-    mesh.translateZ(-20);
-    camera.lookAt(scene.position);
-    renderer.render(scene, camera);
-    renderer.setClearColor(0x000000, 1);}
+	}
+	camera.lookAt(scene.position);
+	renderer.render(scene, camera);
+	renderer.setClearColor(0x000000, 1);
+}

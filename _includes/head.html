@@ -19,22 +19,6 @@
 
 <script type="text/javascript">
 
-var slideIndex = 0;
-var maxSlides;
-
-function posMod(a,b){
-	return ((a%b)+b)%b
-}
-function showSlide(n){
-	slideIndex = posMod(n,maxSlides);
-	n = slideIndex;
-	console.log(slideIndex);
-	$(".mySlide").css({display:"none"});
-	$(".dot").removeClass("active");
-	$(".mySlide").eq(n).css({display:"block"});
-	$(".dot").eq(n).addClass("active");
-}
-
 $(document).ready(function(){
 	$("#open-sidenav").click(function(){
 		$("#sidenav").width(250);
@@ -43,10 +27,6 @@ $(document).ready(function(){
 	$("#close-sidenav").click(function(){
 		$("#sidenav").width(0);
 	})
-
-	maxSlides = $(".mySlide").length;
-
-	showSlide(slideIndex);
 
 	initContext(); //for animating cube
 	animate();

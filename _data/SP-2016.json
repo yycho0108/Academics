@@ -1,0 +1,72 @@
+[
+	{
+		"title" : "Signals and Systems",
+		"description" : "",
+		"projects" : [
+			{
+				"title" : "Sheet Music Player",
+				"description" : "Reads Black-and-White marked grid and produces acoustically enhanced sound according to pitch",
+				"visual" : "",
+				"extra" : "<a href='assets/sigsys/report.pdf'>Report</a><br/><a href='assets/sigsys/presentation.pdf'>Presentation</a>"
+			}
+		],
+		"extra" : "<a href='https://drive.google.com/open?id=0B75j6bliWwyTN2hzbUJ6VjdXWlk'>Exercises</a>"
+	},
+
+	{
+		"title" : "Mechanical Prototyping",
+		"description" : "",
+		"projects" : [
+			{
+				"title" : "Name Design",
+				"description" : "Exploration of mechanical components, inspired by name. Fully 3d printable.",
+				"visual" : "<img src='images/mechproto/name.png'/>",
+				"extra" : "<a href='assets/mechproto/name.pdf'>Report</a>"
+			},
+			{
+				"title" : "Kinetic Sculpture",
+				"description" : "The <i>Iron Schmetterling</i> is a forged butterfly, moving its wings gracefully.",
+				"visual" : "<img src='images/mechproto/kinetic.jpg'/>",
+				"extra" : "<a href='assets/mechproto/kinetic.pdf'>Report</a><br/><a href='assets/mechproto/kinetic-pkg.dpf'>Drawing Package</a>"
+			},
+			{
+				"title" : "Wind Sculpture",
+				"description" : "Representing the theme of Bioengineering, the <i>Bio-Tree</i> coexists in a harmony of metal and nature.",
+				"visual" : "<img src='images/mechproto/wind.png'/>",
+				"extra" : "<a href='assets/mechproto/wind.pdf'>Report</a><br/><a href='assets/mechproto/wind-pkg.dpf'>Drawing Package</a>"
+			}
+		],
+		"extra" : ""
+	},
+
+	{
+		"title" : "Linearity I",
+		"projects" : [
+			{
+				"title":"<a href=../../Lin1_Project>3D Reconstruction</a>",
+				"description":"Recreating the virtual world from images",
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='../../Lin1_Project/videos/presentation-small.mp4' type='video/mp4'></video>",
+				"extra":"<a href='https://github.com/yycho0108/Lin1_Project'>Github Link</a>"
+			}
+		],
+		"extra" : ""
+	},
+	{
+		"title" : "Products and Markets",
+		"projects" : [
+			{
+				"title":"Sticky Labels",
+				"description":"Language-Learning Service to label personal items.",
+				"visual":"<img src='images/pnm/phone.png'/>",
+				"extra":"<a href='assets/pnm/sticky.pdf'>Presentation</a>"
+			},
+			{
+				"title":"Phoneix Phone Case",
+				"description":"Market Research with Multifunctional phone case development.",
+				"visual":"<img src='images/pnm/phone.png'/>",
+				"extra":"<a href='videos/pnm/promo.mp4'>Promo video</a></br><a href='assets/pnm/phone.pdf'>Presentation</pdf>"
+			}
+		],
+		"extra" : ""
+	}
+]

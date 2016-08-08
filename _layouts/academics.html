@@ -9,7 +9,28 @@
 		{% include header.html %}
 		<div class="page-content">
 			<div class="wrapper">
-				{{ content }}
+				<div class="GroupBox">
+					<h2>{{page.title}}</h2>
+					{% for class in site.data[page.href] %}
+					<div class="ClassBox">
+						<h3>{{ class.title }}</h3>
+						<ul class="Projects">
+							{% for project in class.projects %}
+							<div class="Project" style="width : calc( (99% / {{class.projects.size}}) - 10px); float:left;">
+								<h4>{{ project.title }}</h4>
+								<div class="Visual">
+									{{ project.visual }}
+								</div>
+								<p>{{ project.description }}</p>
+								{{ project.extra }}
+								<hr/>
+							</div>
+							{% endfor %}
+						</ul>
+						{{ class.extra }}
+					</div>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 		{% include footer.html %}

@@ -3,24 +3,3 @@ title: Fall 2015
 layout: academics
 href: FA-2015
 ---
-<div class="GroupBox">
-	<h2>{{page.title}}</h2>
-
-	{% for class in site.data.FA-2015 %}
-	<div class="ClassBox">
-		<h3>{{ class.title }}</h3>
-		<ul class="Projects">
-			{% for project in class.projects %}
-			<div class="Project" style="width : calc( (99% / {{class.projects.size}}) - 10px); float:left;">
-					<h4>{{ project.title }}</h4>
-					<div class="Visual">
-						{{ project.visual }}
-					</div>
-					<p>{{ project.description }}</p>
-					{{ project.extra }}
-				</div>
-			{% endfor %}
-		</ul>
-	</div>
-	{% endfor %}
-</div>
