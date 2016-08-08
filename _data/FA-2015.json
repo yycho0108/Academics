@@ -1,0 +1,69 @@
+[
+	{
+		"title" : "Modelling and Simulation",
+		"description" : "Constructing an iterative loop between modelling, simulation, and experimentation of the physical world.",
+		"projects" : [
+			{
+				"title" : "Pharmacokinetics : Caffeine",
+				"description" : "A study on the accumulation of caffeine over repeated registration.",
+				"visual" : "<img src='images/modsim-pharmacokinetics.png'></img>",
+				"extra" : "<a href='assets/modsim-pharmacokinetics.pdf'>Report</a>"
+			},
+			{
+				"title" : "Thermodynamics : <a href='https://en.wikipedia.org/wiki/Solar_cooker'>Solar Cooker</a>",
+				"description" : "A study on the maximizing the efficiency of solar power as an alternative energy source to fuel meal-cooking in the Himalayas.",
+				"visual" : "<img src='images/modsim-thermodynamics.png'></img>",
+				"extra" : "<a href='assets/modsim-thermodynamics.pdf'>Report</a>"
+			},
+			{
+				"title" : "Mechanics : <a href='https://www.youtube.com/watch?v=ULy0vly9A2c'>Kinetic Pendulum</a>",
+				"description" : "An analysis on the perpetual-motion machine with Lagrangian Mechanics, using MATLAB and Mathematica.",
+				"visual" : "<img src='images/modsim-mechanics.png'></img>",
+				"extra" : "<a href='videos/modsim-mechanics.mp4'>Live Demonstration</a></br><a href='assets/modsim-mechanics.pdf'>Report</a>"
+			}
+		],
+		"extra" : ""
+	},
+
+	{
+		"title" : "Introduction to Sensors, Instrumentation and Measurement",
+		"description" : "Constructing an iterative loop between modelling, simulation, and experimentation of the physical world.",
+		"projects" : [
+			{
+				"title" : "<a href='../../AudioLocalizer'>Audio Localizer</a>",
+				"description" : "Interpolated triangulation based on four sonar sensors, filtered around clap frequency(20 kHz) to localize sound source.",
+				"visual" : "<img src='../../AudioLocalizer/images/sample.png'/>",
+				"extra" : "<a href='https://github.com/yycho0108/AudioLocalizer'>Github Link</a>"
+			},
+			{
+			}
+		],
+		"extra" : ""
+	},
+
+	{
+		"title" : "Design Nature",
+		"projects" : [
+			{
+				"title":"Hopper",
+				"description":"Biomimetic Design",
+				"visual":"",
+				"extra":""
+			},
+			{
+				"title":"Shark",
+				"description":"Play experience for 8th graders",
+				"visual":"",
+				"extra":""
+			}
+		],
+		"extra" : ""
+	},
+	{
+		"title" : "Wired Ensemble",
+		"projects" : [
+
+		],
+		"extra" : ""
+	}
+]
