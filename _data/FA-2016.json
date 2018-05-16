@@ -1,0 +1,37 @@
+[
+  {
+    "title" : "Principles of Engineering",
+    "projects" : [
+      {
+        "title" : "Line Follower",
+        "description" : "IR-based line follower with SITL simulation and memory playback",
+        "visual" : "<img src='images/poe/linefollower.jpg'/>",
+        "extra" : "<a href='http://github.com/HALtheWise/POE-lab3'>GitHub Link</a><br/><a href='assets/poe/lab3_report.pdf'>Report</a>"
+      },
+      {
+        "title" : "Terrapin",
+        "description" : "Autonomous Bipedal Indoor Turtle Terrarium",
+        "visual" : "<img src='images/poe/terrapin.jpg'/>",
+        "extra" : "<a href='http://poe.olin.edu/2016/terrapin/'>Website Link</a>"
+      }
+    ],
+    "extra" : ""
+  },
+  {
+    "title" : "Fundamentals of Robotics",
+    "projects" : [
+      {
+        "title" : "Alphabot",
+        "description" : "Designing and Building an autonomous ROS-operated ground rover",
+        "visual" : "<img src='images/funrobo/alphabot.jpg'/>",
+        "extra" : "<a href='assets/funrobo/report.pdf'>Mechanical Design Report</a>"
+      }
+    ]
+  },
+  {
+    "title" : "Computer Architecture"
+  },
+  {
+    "title" : "Linearity II"
+  }
+]
