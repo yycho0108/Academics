@@ -6,20 +6,20 @@
 			{
 				"title" : "Pharmacokinetics : Caffeine",
 				"description" : "A study on the accumulation of caffeine over repeated registration.",
-				"visual" : "<img src='images/modsim/pharmacokinetics.png'></img>",
+				"visual" : "<img src='assets/modsim/pharmacokinetics.png'></img>",
 				"extra" : "<a href='assets/modsim/pharmacokinetics.pdf'>Report</a>"
 			},
 			{
 				"title" : "Thermodynamics : <a href='https://en.wikipedia.org/wiki/Solar_cooker'>Solar Cooker</a>",
 				"description" : "A study on the maximizing the efficiency of solar power as an alternative energy source to fuel meal-cooking in the Himalayas.",
-				"visual" : "<img src='images/modsim/thermodynamics.png'></img>",
+				"visual" : "<img src='assets/modsim/thermodynamics.png'></img>",
 				"extra" : "<a href='assets/modsim/thermodynamics-presentation.pdf'>Presentation</a></br><a href='assets/modsim/thermodynamics-model.pdf'>Report</a>"
 			},
 			{
 				"title" : "Mechanics : <a href='https://www.youtube.com/watch?v=ULy0vly9A2c'>Kinetic Pendulum</a>",
 				"description" : "An analysis on the perpetual-motion machine with Lagrangian Mechanics, using MATLAB and Mathematica.",
-				"visual" : "<img src='images/modsim/mechanics.png'></img>",
-				"extra" : "<a href='videos/modsim/mechanics.mp4'>Live Demonstration</a></br><a href='assets/modsim/mechanics.pdf'>Report</a>"
+				"visual" : "<img src='assets/modsim/mechanics.png'></img>",
+				"extra" : "<a href='assets/modsim/mechanics.mp4'>Live Demonstration</a></br><a href='assets/modsim/mechanics.pdf'>Report</a>"
 			}
 		],
 		"extra" : "<a href='assets/modsim/exercises.pdf'>Exercises</a>"
@@ -32,7 +32,7 @@
 			{
 				"title" : "<a href='../../AudioLocalizer'>Audio Localizer</a>",
 				"description" : "Interpolated triangulation based on four sonar sensors, filtered around clap frequency(20 kHz) to localize sound source.",
-				"visual" : "<img src='../../AudioLocalizer/images/sample.png'/>",
+				"visual" : "<img src='../../AudioLocalizer/assets/sample.png'/>",
 				"extra" : "<a href='https://github.com/yycho0108/AudioLocalizer'>Github Link</a>"
 			}
 		],
@@ -45,14 +45,14 @@
 			{
 				"title":"Hopper",
 				"description":"Biomimetic Design to create a 'hopper', inspired from click beetles.",
-				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='videos/desnat/hopper-1.mp4' type='video/mp4'></video>",
-				"extra":"<a href='videos/desnat/hopper-2.mp4'>Second Model</a>"
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='assets/desnat/hopper-1.mp4' type='video/mp4'></video>",
+				"extra":"<a href='assets/desnat/hopper-2.mp4'>Second Model</a>"
 			},
 			{
 				"title":"Shark",
 				"description":"Biomimetic game for children, motivated from Thresher Sharks; remote-controlling RC Sharks to accurately hit a target.",
-				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='videos/desnat/shark-2.mp4' type='video/mp4'></video>",
-				"extra":"<a href='videos/desnat/shark-1.mp4'>Conceptual Video</a>"
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='assets/desnat/shark-2.mp4' type='video/mp4'></video>",
+				"extra":"<a href='assets/desnat/shark-1.mp4'>Conceptual Video</a>"
 			}
 		],
 		"extra" : ""
