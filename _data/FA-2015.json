@@ -19,7 +19,7 @@
 				"title" : "Mechanics : <a href='https://www.youtube.com/watch?v=ULy0vly9A2c'>Kinetic Pendulum</a>",
 				"description" : "An analysis on the perpetual-motion machine with Lagrangian Mechanics, using MATLAB and Mathematica.",
 				"visual" : "<img src='assets/modsim/mechanics.png'></img>",
-				"extra" : "<a href='assets/modsim/mechanics.mp4'>Live Demonstration</a></br><a href='assets/modsim/mechanics.pdf'>Report</a>"
+				"extra" : "<a href='https://youtu.be/8e26mFHTdFY'>Live Demonstration</a></br><a href='assets/modsim/mechanics.pdf'>Report</a>"
 			}
 		],
 		"extra" : "<a href='assets/modsim/exercises.pdf'>Exercises</a>"
@@ -45,14 +45,14 @@
 			{
 				"title":"Hopper",
 				"description":"Biomimetic Design to create a 'hopper', inspired from click beetles.",
-				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='assets/desnat/hopper-1.mp4' type='video/mp4'></video>",
-				"extra":"<a href='assets/desnat/hopper-2.mp4'>Second Model</a>"
+				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='https://www.youtube.com/watch?v=2dzhwm04EWE' type='video/mp4'></video>",
+				"extra":"<a href='https://www.youtube.com/watch?v=nmoS7gwz1xw'>Second Model</a>"
 			},
 			{
 				"title":"Shark",
 				"description":"Biomimetic game for children, motivated from Thresher Sharks; remote-controlling RC Sharks to accurately hit a target.",
-				"visual":"<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='assets/desnat/shark-2.mp4' type='video/mp4'></video>",
-				"extra":"<a href='assets/desnat/shark-1.mp4'>Conceptual Video</a>"
+				"visual":"<iframe width='560' height='315' src='https://www.youtube.com/embed/MFnCw74QDEc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+				"extra":"<a href='https://www.youtube.com/watch?v=lFjF2fCs2H0'>Conceptual Video</a>"
 			}
 		],
 		"extra" : ""

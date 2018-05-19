@@ -6,7 +6,7 @@
 			{
 				"title" : "Sheet Music Player",
 				"description" : "Reads Black-and-White marked grid and produces acoustically enhanced sound according to pitch",
-				"visual" : "",
+				"visual" : "<video controls width='100%' height='100%'>Your Browser Does Not Support The Video Tag.<source src='https://www.youtube.com/watch?v=AkwqCGDIC5Y' type='video/mp4'></video>",
 				"extra" : "<a href='assets/sigsys/report.pdf'>Report</a><br/><a href='assets/sigsys/presentation.pdf'>Presentation</a>"
 			}
 		],
@@ -57,14 +57,14 @@
 			{
 				"title":"Sticky Labels",
 				"description":"Language-Learning Service to label personal items.",
-				"visual":"<img src='assets/pnm/phone.png'/>",
+				"visual":"<img src='assets/pnm/post-it.jpg'/>",
 				"extra":"<a href='assets/pnm/sticky.pdf'>Presentation</a>"
 			},
 			{
 				"title":"Phoneix Phone Case",
 				"description":"Market Research with Multifunctional phone case development.",
 				"visual":"<img src='assets/pnm/phone.png'/>",
-				"extra":"<a href='assets/pnm/promo.mp4'>Promo video</a></br><a href='assets/pnm/phone.pdf'>Presentation</pdf>"
+				"extra":"<a href='https://www.youtube.com/watch?v=q7SvR-Ue-0o'>Promo video</a></br><a href='assets/pnm/phone.pdf'>Presentation</pdf>"
 			}
 		],
 		"extra" : ""
