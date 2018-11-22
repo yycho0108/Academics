@@ -51,7 +51,7 @@
 			{
 				"title":"Shark",
 				"description":"Biomimetic game for children, motivated from Thresher Sharks; remote-controlling RC Sharks to accurately hit a target.",
-				"visual":"<iframe width='560' height='315' src='https://www.youtube.com/embed/MFnCw74QDEc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+				"visual":"<iframe width='100%' src='https://www.youtube.com/embed/MFnCw74QDEc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
 				"extra":"<a href='https://www.youtube.com/watch?v=lFjF2fCs2H0'>Conceptual Video</a>"
 			}
 		],

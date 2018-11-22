@@ -9,6 +9,12 @@ layout: default
 
 <br/>
 
+<div class="grid-container">
 {% for page in site.pages %}
-<a href={{page.href}}> {{page.title}} </a></br>
+    {% if page.title != 'Index' %}
+        <div>
+        <a href={{page.href}}> {{page.title}} </a></br>
+        </div>
+    {% endif %}
 {% endfor %}
+</div>

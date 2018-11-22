@@ -1,11 +1,67 @@
+div.CBoxCover{
+    /*position: absolute;*/
+    /*content: '';*/
+    position: relative;
+    background: rgba(1.0,1.0,1.0, 0.0);
+    /*background: rgba(1.0,1.0,1.0,0.5);*/
+    /*partially transparent image*/
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+    /*pointer-events: none;*/
+}
+
 div.ClassBox {
+    /*position: relative;*/
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	height: 300px;
-	margin: 10px;
-	padding: 20px;
-	border: 3px solid #73AD21;
-	overflow : scroll;
+	/*padding: 20px;*/
+	border: none;
+    /*3px solid #73AD21;*/
+	overflow : auto;
+}
+
+div.overlay1{
+    background-color: rgb(30%,50%,20%);
+}
+div.overlay2{
+    background-color: rgb(50%,30%,20%);
+}
+div.overlay3{
+    background-color: rgb(30%,20%,50%);
+}
+div.overlay4{
+    background-color: rgb(20%,50%,30%);
+}
+
+div.overlay-text {
+    color: white;
+    font-size: 2vmax;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.CBoxOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1.0;
+    transition: .5s ease;
+    pointer-events: none;
+}
+
+div.CBoxCover:hover div.CBoxOverlay{
+	opacity: 0.2;
 }
 
 div.GroupBox {

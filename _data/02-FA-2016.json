@@ -29,9 +29,25 @@
     ]
   },
   {
-    "title" : "Computer Architecture"
+    "title" : "Computer Architecture",
+    "projects" : [
+      {
+        "title" : "FPGANeuralNet",
+        "description" : "Feedforward Neural Network on an FPGA",
+        "visual" : "<img src='assets/comparch/diagram.png'/>",
+        "extra" : "<a href='https://yycho0108.github.io/CompArchNeuralNet'>Report Page</a><br/><a href='https://www.youtube.com/watch?v=UKsqzIlWN68'>Demonstration Video</a>"
+      }
+    ]
   },
   {
-    "title" : "Linearity II"
+    "title" : "Linearity II",
+    "projects" : [
+      {
+        "title" : "Leviosa",
+        "description" : "Mathematical Model for Magnetic Levitation",
+        "visual" : "<img src='assets/lin2/demo.gif'/>",
+        "extra" : "<a href='https://github.com/solenoid-bandits/leviosa'>Github Page</a><br/><a href='assets/funrobo/report.pdf'>Final Report</a>"
+      }
+    ]
   }
 ]

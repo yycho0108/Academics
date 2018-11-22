@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'index index'
+    '00 01'
+    '02 03'
+    '04 05'
+    '06 07'
+    '08 08'
+}
+
+div[class*="FA-"]{
+    float: left;
+}
+
+div[class*="SP-"]{
+    float: right;
+}
